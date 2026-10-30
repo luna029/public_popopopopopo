@@ -1,0 +1,1 @@
+Great-circle distance between the two pad coordinates: 5.76 km.

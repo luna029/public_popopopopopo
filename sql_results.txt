@@ -1,0 +1,91 @@
+Date join between independent extracts: 89/90 API launches matched; one 2016-09-01 event absent from web table.
+
+24 unique launch sites
+   Launch_Site
+         CCAFS
+         CCSFS
+Cape Canaveral
+           KSC
+          VAFB
+
+25 CCAFS launches
+ Flight_Number Launch_Site   Date_iso
+             1       CCAFS 2010-06-04
+             2       CCAFS 2010-12-08
+             3       CCAFS 2012-05-22
+             4       CCAFS 2012-10-08
+             5       CCAFS 2013-03-01
+
+26 NASA payload sum kg
+ NASA_Payload_kg
+        124708.0
+
+27 F9 v1.1 average payload
+ n  avg_kg
+15  2534.7
+
+28 first successful ground landing
+MIN(Date_iso)
+   2015-12-22
+
+29 drone successes payload 4-6t
+ Flight_Number Serial  Payload_kg    Launch_Site   Date_iso
+            24    NaN      4696.0 Cape Canaveral 2016-05-06
+            28    NaN      4600.0 Cape Canaveral 2016-08-14
+            32    NaN      5300.0            KSC 2017-03-30
+            43  B1031      5200.0            KSC 2017-10-11
+            60  B1046      5800.0          CCAFS 2018-08-07
+            63  B1047      5300.0            KSC 2018-11-15
+            64  B1046      4000.0           VAFB 2018-12-03
+            88    NaN      4311.0          CCAFS 2020-06-30
+            89  B1058      5000.0          CCAFS 2020-07-20
+            97    NaN      4311.0          CCAFS 2020-11-05
+
+30 outcome totals
+         Outcome  n
+         Failure 12
+No attempt/other 24
+         Success 85
+
+31 max payload booster
+ Booster_Version Serial  Payload_Mass_kg  Flight_Number
+           F9 B5    NaN          15600.0             75
+           F9 B5    NaN          15600.0             78
+           F9 B5    NaN          15600.0             80
+           F9 B5    NaN          15600.0             81
+           F9 B5    NaN          15600.0             83
+           F9 B5    NaN          15600.0             84
+           F9 B5    NaN          15600.0             86
+ F9 B5B1060.2563  B1060          15600.0             93
+ F9 B5B1058.3565  B1058          15600.0             94
+ F9 B5B1051.6568  B1051          15600.0             95
+           F9 B5    NaN          15600.0             96
+        F9 B5 ♺[    NaN          15600.0            100
+ F9 B5B1051.8609  B1051          15600.0            105
+        F9 B5 ♺[    NaN          15600.0            107
+         F9 B5 ♺    NaN          15600.0            108
+        F9 B5 ♺[    NaN          15600.0            109
+        F9 B5 ♺[    NaN          15600.0            110
+         F9 B5 ♺    NaN          15600.0            111
+ F9 B5B1060.6643  B1060          15600.0            112
+         F9 B5 ♺    NaN          15600.0            113
+ F9 B5B1060.7652  B1060          15600.0            115
+ F9 B5B1049.9655  B1049          15600.0            116
+F9 B5B1051.10657  B1051          15600.0            117
+ F9 B5B1063.2665  B1063          15600.0            119
+
+32 failed drone 2015
+ Flight_Number      Landing_Outcome Booster_Version    Launch_Site   Date_iso
+            14 Failure (drone ship)        F9 v1.1[ Cape Canaveral 2015-01-10
+            17 Failure (drone ship)        F9 v1.1[ Cape Canaveral 2015-04-14
+
+33 outcomes rank 2010-2017
+           Landing_Outcome  n
+                No attempt 11
+      Success (drone ship)  5
+      Failure (drone ship)  4
+      Success (ground pad)  3
+           Success (ocean)  3
+           Failure (ocean)  2
+Failure (type unspecified)  2
+   No attempt (drone ship)  1
